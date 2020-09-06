@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class Example {
 	
 	public String welcome() {
-		
+		System.out.println("Hello modified...>>>>>>>>>>>>");
 		return "Spring boot git Test program";
 	}
 	
